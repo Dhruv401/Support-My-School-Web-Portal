@@ -1,0 +1,119 @@
+/*
+        Variable Grid System.
+        Learn more ~ http://www.spry-soft.com/grids/
+        Based on 960 Grid System - http://960.gs/
+
+        Licensed under GPL and MIT.
+*/
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_4,
+.grid_8
+{
+    display:inline;
+    float: left;
+    position: relative;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.grid_77
+{
+
+    display:inline;
+    float: left;
+    position: relative;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.grid_07
+{
+    display:inline;
+    float: left;
+    position: relative;
+    
+    size:portrait;
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+
+.grid_099
+{
+    display:inline;
+    float: left;
+    position: relative;
+    
+    size: landscape;
+    
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+
+.grid_1{
+
+
+    float:left;
+    margin-left:100px;
+    margin-top:100px;
+
+
+
+}
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+    margin-left: 0;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.container_12 .grid_4 {
+    width:300px;
+}
+
+
+.container_12 .grid_8 {
+    width:620px;
+}
+
+
+
+
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
